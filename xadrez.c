@@ -31,5 +31,18 @@ int main() {
     }
     printf("\n");
 
+    // Nível Aventureiro - Movimentação do Cavalo
+    printf("Movimentacao do Cavalo (L para baixo e para a esquerda):\n");
+    // Movimento em L: 2 casas para baixo, 1 para a esquerda
+    for (int i = 0; i < 2; i++) {
+        printf("Baixo\n");
+    }
+    int j = 0;
+    while (j < 1) {
+        printf("Esquerda\n");
+        j++;
+    }
+    printf("\n");
+
     return 0;
 }
